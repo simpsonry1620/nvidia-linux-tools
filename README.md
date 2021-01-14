@@ -1,2 +1,2 @@
 # nvidia-linux-tools
-Tools to help configure, debug, and troubleshoot NVIDIA devices on linux.
+Tools and resource to help configure, debug, and troubleshoot NVIDIA devices on linux.
