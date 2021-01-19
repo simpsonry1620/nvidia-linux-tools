@@ -5,6 +5,10 @@
 ```
 $ lspci | grep -i nvidia
 ```
+### Update PCI Ids
+```
+$ sudo update-pciids
+```
 ### View NVIDIA drivers
 ```
 $ lsmod | grep -i nvidia
