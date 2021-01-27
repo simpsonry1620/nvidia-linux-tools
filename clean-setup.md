@@ -1,5 +1,26 @@
 # Performing a clean setup after fresh Ubuntu install
 
+## Check for updates
+```
+sudo apt update
+```
+
+```
+sudo apt upgrade
+```
+
+## Setup SSH
+```
+sudo apt install ssh
+```
+```
+sudo ufw allow ssh
+```
+or if specifying a different port than 22. Change to required port.
+```
+sudo ufw allow 22/tcp
+```
+
 ## Prepare drivers
 
 ## Install drivers
