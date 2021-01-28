@@ -49,3 +49,8 @@ $ sudo reboot
 ```
 $ lsmod | grep -i nouveau
 ```
+
+## CUDA Troubleshooting
+# Run cuda container with nvidia-smi
+```
+docker run --rm -it nvcr.io/nvidia/cuda nvidia-smi
