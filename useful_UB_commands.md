@@ -19,6 +19,11 @@ $ lsmod | grep -i nvidia
 $ lsmod | grep -i nouveau
 ```
 
+### Check CUDA and NVCC version
+```
+nvcc --version
+```
+
 ## General processes for configuring drivers
 ### Blacklisting nouveau drivers
 In many cases nouveau drivers can cause issues with NVIDIA gpus specifically when trying to use CUDA. Below are the steps to verify and remidy nouveau drivers issues:
